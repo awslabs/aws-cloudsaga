@@ -1,10 +1,10 @@
-# AWS CloudSaga - Simulate attacks in AWS
+# AWS CloudSaga - Simulate security events in AWS
 AWS CloudSaga is for customers to test security controls and alerts within their Amazon Web Services (AWS) environment, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 
 ## Use Case
-Security controls and best practices are published for securing AWS accounts, however, customers look for mechanisms to test security and incident response within their AWS environments, in order to protect themselves against known attacks. 
+Security controls and best practices are published for securing AWS accounts, however, customers look for mechanisms to test security and incident response within their AWS environments, in order to protect themselves against known security events. 
 
-AWS CloudSaga is for customers who want to test their environment against documented attacks from the AWS CIRT. Using AWS CloudSaga, simple scenarios that mimic actual attacks can be run against a customer's environment, testing the customer's response plans and defenses when these events occur, and improve defenses of their AWS environment from the results.
+AWS CloudSaga is for customers who want to test their environment against documented security events from the AWS CIRT. Using AWS CloudSaga, simple scenarios that mimic actual security events can be run against a customer's environment, testing the customer's response plans and defenses when these events occur, and improve defenses of their AWS environment from the results.
 
 ## Usage
 ```
@@ -26,7 +26,7 @@ python3 cloudsaga.py
 
     usage: cloudsaga.py [-h] [--scenario SCENARIO] [--chapters] [--about ABOUT]
 
-    CloudSaga - Simulate attacks based on previous Ziplines
+    CloudSaga - Simulate security events based on previous Ziplines
 
     optional arguments:
     -h, --help           show this help message and exit
@@ -39,10 +39,6 @@ python3 cloudsaga.py
                         --chapters flag.
 ```
 
-## Scope
-
-
-## Diagram
 
 ## Prerequesites
 ### Permissions

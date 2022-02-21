@@ -1,6 +1,6 @@
 #// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #// SPDX-License-Identifier: Apache-2.0
-# AWS CloudSaga - Simulate attacks in AWS
+# AWS CloudSaga - Simulate security events in AWS
 # Joshua "DozerCat" McKiddy - Customer Incident Response Team (CIRT) - AWS
 
 
@@ -59,7 +59,7 @@ def main():
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     output_handle.setFormatter(formatter)
 
-    parser = argparse.ArgumentParser(description='AWS CloudSaga - Simulate attacks in AWS')
+    parser = argparse.ArgumentParser(description='AWS CloudSaga - Simulate security events in AWS')
     parser.add_argument('--scenario',help=' Perform the scenario you want to run against your AWS environment.', required=False)
     parser.add_argument('--chapters',help=' List the available scenarios within CloudSaga. Use the --about flag to read details about a specific scenario.', action='store_true', required=False)
     parser.add_argument('--about',help=' Read about a specific scenario (e.g. --about <scenario>. For a list of available scenarios, use the --chapters flag.', required=False)

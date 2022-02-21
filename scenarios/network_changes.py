@@ -1,6 +1,6 @@
 #// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #// SPDX-License-Identifier: Apache-2.0
-# AWS CloudSaga - Simulate attacks in AWS
+# AWS CloudSaga - Simulate security events in AWS
 # Joshua "DozerCat" McKiddy - Customer Incident Response Team (CIRT) - AWS
 
 
@@ -76,7 +76,7 @@ def create_security_groups(regions_containing_instances):
         try:
             VPCList: list = []
             vpcs_in_use = boto3.client('ec2', region_name=aws_used_region)
-            logging.info("Looking for existing VPCs to run DryRun attacks in region " + aws_used_region + "...")
+            logging.info("Looking for existing VPCs to run DryRun security events in region " + aws_used_region + "...")
             logging.info("DescribeVpcs API Call")
             all_vpcs = vpcs_in_use.describe_vpcs()
             for vpc_id in all_vpcs["Vpcs"]:

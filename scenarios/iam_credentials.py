@@ -1,6 +1,6 @@
 #// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #// SPDX-License-Identifier: Apache-2.0
-# AWS CloudSaga - Simulate attacks in AWS
+# AWS CloudSaga - Simulate security events in AWS
 # Joshua "DozerCat" McKiddy - Customer Incident Response Team (CIRT) - AWS
 
 
