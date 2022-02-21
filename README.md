@@ -106,21 +106,35 @@ This scenario is for checking and creating public AWS resources within an AWS ac
 This includes Amazon RDS and Amazon S3.
 ```
 
-
 ## Running the Code
 The code in it's current form can be ran inside the following:
 * AWS CloudShell (preferred)
 * Locally (with IAM credentials, not preferred)
 
+## Step-by-Step Instructions (for running in AWS CloudShell)
+1. Log into the AWS Console of the account you want to run AWS CloudSaga.
+2. Click on the icon for AWS Cloudshell next to the search bar.
+   * Ensure that you're in a region where AWS CloudShell is currently available.
+3. Once the session begins, download AWS CloudSaga within the AWS CloudShell session.
+```
+git clone https://github.com/awslabs/aws-cloudsaga.git
+```
+4. Change the directory to the folder cloned from the link in Step 3:
+```
+cd aws-cloudsaga
+```
+5. Run the following command to review the help page for AWS CloudSaga.
+```
+python3 cloudsaga.py -h
+```
+6. Review the scenarios, select the one that you want to run for generating your security event for testing.
 
 ## Feedback
 Please use the Issues section to submit any feedback, such as features or recommendations, as well as any bugs that are encountered.
 
-
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
 
 ## License
 
