@@ -107,10 +107,10 @@ def s3_check(region_list):
         logging.info("Creating bucket in %s" % account_number)
         logging.info("CreateBucket API Call")
         new_bucket = s3.create_bucket(
-            Bucket='cloudsaga-permission-test-' + account_number,
-            CreateBucketConfiguration={
-                'LocationConstraint': 'us-east-1'
-            }
+            Bucket='cloudsaga-permission-test-' + account_number
+            # CreateBucketConfiguration={
+            #     'LocationConstraint': 'us-west-1'
+            # }
         )
         logging.info("S3 Bucket cloudsaga-permission-test-" + account_number + " created. Please ensure this bucket is deleted after the CloudSaga exercise has been completed, as it is publicly accessible.")
         # logging.info("PutBucketLogging API Call")
