@@ -139,6 +139,29 @@ python3 cloudsaga.py -h
 ### Logging
 A log file containing the detailed output of actions will be placed in the root directory of AWS CloudSaga. The format of the file will be cloudsaga_timestamp_here.log
 
+Sample output within the log file:
+```
+2022-02-22 01:20:47,826 - INFO - --Checking instances in AWS region me-south-1--
+2022-02-22 01:20:47,826 - INFO - DescribeInstances API Call in AWS region me-south-1--
+2022-02-22 01:20:48,712 - INFO - You cannot perform lookup of IMDS versions in this region. Error message below:
+2022-02-22 01:20:48,712 - ERROR - An error occurred (AuthFailure) when calling the DescribeInstances operation: AWS was not able to validate the provided access credentials
+2022-02-22 01:20:48,713 - INFO - --Checking instances in AWS region sa-east-1--
+2022-02-22 01:20:48,713 - INFO - DescribeInstances API Call in AWS region sa-east-1--
+2022-02-22 01:20:49,525 - INFO - --Checking instances in AWS region us-east-1--
+2022-02-22 01:20:49,525 - INFO - DescribeInstances API Call in AWS region us-east-1--
+2022-02-22 01:20:49,876 - INFO - --Checking instances in AWS region us-east-2--
+2022-02-22 01:20:49,876 - INFO - DescribeInstances API Call in AWS region us-east-2--
+2022-02-22 01:20:50,192 - INFO - --Checking instances in AWS region us-west-1--
+2022-02-22 01:20:50,192 - INFO - DescribeInstances API Call in AWS region us-west-1--
+2022-02-22 01:20:50,444 - INFO - --Checking instances in AWS region us-west-2--
+2022-02-22 01:20:50,445 - INFO - DescribeInstances API Call in AWS region us-west-2--
+2022-02-22 01:20:50,610 - INFO - Instance ID i-99999999999999999 is using IMDSv1, where no authentication header is required to access the IMDS service.
+```
+
+## Cleaning Up
+Once the logs have been enabled, you can safely remove any of the downloaded files from AWS CloudShell.
+* Note: The log file containing the detailed output of actions will be in the root directory of AWS CloudSaga. If you want to retain this, please download this to a safe place, either locally or to an Amazon S3 bucket, for your records. For information on how to download files from AWS CloudShell sessions, refer to the following [link](https://docs.aws.amazon.com/cloudshell/latest/userguide/working-with-cloudshell.html#files-storage).
+
 ## Feedback
 Please use the Issues section to submit any feedback, such as features or recommendations, as well as any bugs that are encountered.
 
