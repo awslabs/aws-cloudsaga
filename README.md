@@ -108,9 +108,8 @@ IAM Credentials Scenario:
 This scenario attempts to grab the IAM credential report within the AWS account.
 ```
 ```
-Public Resources Scenario:
-This scenario is for checking and creating public AWS resources within an AWS account.
-This includes Amazon RDS and Amazon S3.
+Publicly Available Resources Scenario:
+This scenario is for checking and creating for publicly available resources within an AWS account.
 ```
 
 ## Running the Code
