@@ -24,11 +24,11 @@ logFormatter = '%(asctime)s - %(levelname)s - %(message)s'
 logging.basicConfig(format=logFormatter, level=logging.INFO)
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-output_handle = logging.FileHandler('cloudsaga_' + timestamp_date_string + '.log')
-output_handle.setLevel(logging.INFO)
-logger.addHandler(output_handle)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-output_handle.setFormatter(formatter)
+# output_handle = logging.FileHandler('cloudsaga_' + timestamp_date_string + '.log')
+# output_handle.setLevel(logging.INFO)
+# logger.addHandler(output_handle)
+# formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+# output_handle.setFormatter(formatter)
 
 
 def banner():

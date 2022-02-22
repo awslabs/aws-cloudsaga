@@ -136,6 +136,9 @@ python3 cloudsaga.py -h
 ```
 6. Review the scenarios, select the one that you want to run for generating your security event for testing.
 
+### Logging
+A log file containing the detailed output of actions will be placed in the root directory of AWS CloudSaga. The format of the file will be cloudsaga_timestamp_here.log
+
 ## Feedback
 Please use the Issues section to submit any feedback, such as features or recommendations, as well as any bugs that are encountered.
 
