@@ -127,7 +127,7 @@ def s3_check(unique_end):
                     'LocationConstraint': region
                 }
             )
-        logging.info("S3 Bucket cloudsaga-permission-test-" + account_number + " created. Please ensure this bucket is deleted after the CloudSaga exercise has been completed, as it is publicly accessible.")
+        logging.info("S3 Bucket cloudsaga-permission-test-" + account_number + "-" + unique_end + " created. Please ensure this bucket is deleted after the CloudSaga exercise has been completed, as it is publicly accessible.")
         # logging.info("PutBucketLogging API Call")
         # bucket_logging = s3.put_bucket_logging(
         #     Bucket='cloudsaga-permission-test-' + account_number,
