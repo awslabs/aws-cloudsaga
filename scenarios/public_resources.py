@@ -9,6 +9,7 @@ import boto3
 import datetime
 import string
 import random
+import os
 from botocore.exceptions import ClientError, InvalidS3AddressingStyleError
 from datetime import timezone
 
@@ -20,6 +21,7 @@ timestamp_date_string = str(timestamp_date)
 
 
 sts = boto3.client('sts')
+region = os.environ['AWS_REGION']
 
 
 region_list = ['af-south-1', 'ap-east-1', 'ap-south-1', 'ap-northeast-1', 'ap-northeast-2', 'ap-northeast-3', 'ap-southeast-1', 'ap-southeast-2', 'ca-central-1', 'eu-central-1', 'eu-west-1', 'eu-west-2', 'eu-west-3', 'eu-north-1', 'eu-south-1', 'me-south-1', 'sa-east-1', 'us-east-1', 'us-east-2', 'us-west-1', 'us-west-2']
@@ -106,12 +108,17 @@ def s3_check(region_list):
         buckets=s3.list_buckets()
         logging.info("Creating bucket in %s" % account_number)
         logging.info("CreateBucket API Call")
-        new_bucket = s3.create_bucket(
-            Bucket='cloudsaga-permission-test-' + account_number
-            # CreateBucketConfiguration={
-            #     'LocationConstraint': 'us-west-1'
-            # }
-        )
+        if region == 'us-east-1':
+            new_bucket = s3.create_bucket(
+                Bucket='cloudsaga-permission-test-' + account_number
+            )
+        else:
+            new_bucket = s3.create_bucket(
+                Bucket='cloudsaga-permission-test-' + account_number,
+                CreateBucketConfiguration={
+                    'LocationConstraint': region
+                }
+            )
         logging.info("S3 Bucket cloudsaga-permission-test-" + account_number + " created. Please ensure this bucket is deleted after the CloudSaga exercise has been completed, as it is publicly accessible.")
         # logging.info("PutBucketLogging API Call")
         # bucket_logging = s3.put_bucket_logging(
