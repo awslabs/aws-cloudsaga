@@ -86,10 +86,10 @@ The following permissions are needed within AWS IAM for CloudSaga to run:
 ## Specific Scenario Details
 ```
 IMDS Reveal Scenario:
-This scenario is based on the attack vector provided by IMDS version 1.
-EC2 instances using IMDS version 1 are vulnerable to server side request
-forgery (SSRF) attacks, and can be used as a pivot point for privilege
-escalation within AWS.
+This scenario is based on a server-side request forgery attack. 
+EC2 instances using IMDS version 1 are more likely to be subject to this 
+kind of software flaw, and if EC2 Role credentials are present, those 
+credentials can be used in AWS.
 ```
 ```
 Bitcoin Mining Scenario:
