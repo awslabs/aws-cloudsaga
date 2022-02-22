@@ -44,6 +44,14 @@ def random_pass():
     return(dummy_string)
 
 
+# Define random string for S3 Bucket Name
+def random_string_generator():
+    lower_letters = string.ascii_lowercase
+    numbers = string.digits
+    unique_end = (''.join(random.choice(lower_letters + numbers) for char in range(6)))
+    return unique_end
+
+
 # Public Resources
 # Step 1. Check for public RDS resources, and attempt to create & delete a public RDS database.
 def public_resource_check(region_list, dummy_string):
@@ -98,7 +106,7 @@ def public_resource_check(region_list, dummy_string):
 
 
 # Step 2. Attempt to create an S3 Bucket, and set as public.
-def s3_check(region_list):
+def s3_check(unique_end):
     """Function to attempt making existing bucket public and creating a bucket and making public"""
     try:
         account_number = sts.get_caller_identity()["Account"]
@@ -110,11 +118,11 @@ def s3_check(region_list):
         logging.info("CreateBucket API Call")
         if region == 'us-east-1':
             new_bucket = s3.create_bucket(
-                Bucket='cloudsaga-permission-test-' + account_number
+                Bucket='cloudsaga-permission-test-' + account_number + '-' + unique_end
             )
         else:
             new_bucket = s3.create_bucket(
-                Bucket='cloudsaga-permission-test-' + account_number,
+                Bucket='cloudsaga-permission-test-' + account_number + '-' + unique_end,
                 CreateBucketConfiguration={
                     'LocationConstraint': region
                 }
@@ -152,6 +160,7 @@ def s3_check(region_list):
 def main():
     """Function that runs all of the previously defined functions"""
     dummy_string = random_pass()
+    unique_end = random_string_generator()
     public_resource_check(region_list, dummy_string)
-    s3_check(region_list)
+    s3_check(unique_end)
     logging.info("This is the end of the script. Please check and cleanup any resources created from this script.")
