@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #// SPDX-License-Identifier: Apache-2.0
 # AWS CloudSaga - Simulate security events in AWS
@@ -5,13 +6,11 @@
 
 
 import logging
-import boto3
 import time
 import datetime
 import argparse
-from botocore.exceptions import ClientError
 from datetime import timezone
-from scenarios import iam_credentials, imds_reveal, mining_bitcoin, network_changes, public_resources
+from .scenarios import iam_credentials, imds_reveal, mining_bitcoin, network_changes, public_resources
 
 
 current_date = datetime.datetime.now(tz=timezone.utc)
