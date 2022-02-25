@@ -8,7 +8,7 @@ AWS CloudSaga is for customers who want to test their environment against docume
 
 ## Usage
 ```
-python3 cloudsaga.py
+cloudsaga
 
 
 
@@ -116,6 +116,22 @@ This scenario is for creating then checking for publicly accessible resources wi
 The code in it's current form can be ran inside the following:
 * AWS CloudShell (preferred)
 * Locally (with IAM credentials, not preferred)
+
+## Prerequisites
+The following prerequisites are required to use AWS CloudSaga
+* Python 3.7 or later
+* pip3 (for installation of AWS CloudSaga)
+
+## Installing the code
+After cloning the repository, you can install AWS CloudSaga locally via pip3.
+```
+# Clone AWS CloudSaga:
+git clone https://github.com/awslabs/aws-cloudsaga
+# Go into the directory aws-cloudsaga:
+cd aws-cloudsaga
+# Run pip3 to install the local packages
+pip3 install .
+```
 
 ## Step-by-Step Instructions (for running in AWS CloudShell)
 1. Log into the AWS Console of the account you want to run AWS CloudSaga.

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cloudsaga"
-version = "1.0.0"
+version = "1.0.1"
 description = "AWS CloudSaga is a tool to test security controls and alerts within their Amazon Web Services (AWS) environment"
 readme = "README.md"
 repository = "https://github.com/awslabs/aws-cloudsaga"
