@@ -31,7 +31,7 @@ cloudsaga
             Joshua "DozerCat" McKiddy - Team DragonCat - AWS
             Type -h for help.
 
-    usage: cloudsaga.py [-h] [--scenario SCENARIO] [--chapters] [--about ABOUT]
+    usage: cloudsaga [-h] [--scenario SCENARIO] [--chapters] [--about ABOUT]
 
     CloudSaga - Simulate security events based on previous Ziplines
 
@@ -139,7 +139,7 @@ pip3 install cloudsaga
 ```
 4. Once installed, run the following command to review the help page for AWS CloudSaga.
 ```
-cloudsaga.py -h
+cloudsaga -h
 ```
 5. Review the scenarios, select the one that you want to run for generating your security event for testing.
 
