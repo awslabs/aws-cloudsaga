@@ -123,33 +123,21 @@ The following prerequisites are required to use AWS CloudSaga
 * pip3 (for installation of AWS CloudSaga)
 
 ## Installing the code
-After cloning the repository, you can install AWS CloudSaga locally via pip3.
-```
-# Clone AWS CloudSaga:
-git clone https://github.com/awslabs/aws-cloudsaga
-# Go into the directory aws-cloudsaga:
-cd aws-cloudsaga
-# Run pip3 to install the local packages
-pip3 install .
-```
+Installation of the code is done via 
 
 ## Step-by-Step Instructions (for running in AWS CloudShell)
 1. Log into the AWS Console of the account you want to run AWS CloudSaga.
 2. Click on the icon for AWS Cloudshell next to the search bar.
    * Ensure that you're in a region where AWS CloudShell is currently available.
-3. Once the session begins, download AWS CloudSaga within the AWS CloudShell session.
+3. Once the session begins, install AWS CloudSaga via pip3:
 ```
-git clone https://github.com/awslabs/aws-cloudsaga.git
+pip3 install cloudsaga
 ```
-4. Change the directory to the folder cloned from the link in Step 3:
+4. Once installed, run the following command to review the help page for AWS CloudSaga.
 ```
-cd aws-cloudsaga
+cloudsaga.py -h
 ```
-5. Run the following command to review the help page for AWS CloudSaga.
-```
-python3 cloudsaga.py -h
-```
-6. Review the scenarios, select the one that you want to run for generating your security event for testing.
+5. Review the scenarios, select the one that you want to run for generating your security event for testing.
 
 ### Logging
 A log file containing the detailed output of actions will be placed in the root directory of AWS CloudSaga. The format of the file will be cloudsaga_timestamp_here.log
