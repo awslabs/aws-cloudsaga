@@ -120,6 +120,7 @@ The code in it's current form can be ran inside the following:
 ## Prerequisites
 The following prerequisites are required to use AWS CloudSaga
 * Python 3.7 or later
+* boto3 1.21.7 or later
 * pip3 (for installation of AWS CloudSaga)
 
 ## Installing the code
