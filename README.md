@@ -123,7 +123,10 @@ The following prerequisites are required to use AWS CloudSaga
 * pip3 (for installation of AWS CloudSaga)
 
 ## Installing the code
-Installation of the code is done via 
+Installation of the code is done via pip3:
+```
+pip3 install cloudsaga
+```
 
 ## Step-by-Step Instructions (for running in AWS CloudShell)
 1. Log into the AWS Console of the account you want to run AWS CloudSaga.
