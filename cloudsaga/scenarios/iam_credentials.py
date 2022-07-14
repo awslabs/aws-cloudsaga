@@ -24,6 +24,7 @@ def get_cred_report():
         iam_user.generate_credential_report()
         logging.info('Getting credential report')
         get_cred=iam_user.get_credential_report()
+        logging.info("IAM Credential Report generated/retrieved.")
     except Exception as exception_handle:
         logging.error(exception_handle)
         logging.info("IAM Credential Report could not be generated/retrieved.")
@@ -32,5 +33,4 @@ def get_cred_report():
 def main():
     """Function that runs all of the previously defined functions"""
     get_cred_report()
-    logging.info("IAM Credential Report generated/retrieved.")
     logging.info("This is the end of the script. Please check and cleanup any resources created from this script.")
