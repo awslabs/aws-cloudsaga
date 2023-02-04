@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,159,124
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,10,9
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,10,9
+/awslabs/aws-cloudsaga/blob/main/screenshots/imds-reveal-example.png,4,3
+/awslabs/aws-cloudsaga/tree/main/screenshots,3,3
+/awslabs/aws-cloudsaga/commits,3,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/network_changes.py,2,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/mining_bitcoin.py,2,1
+/AWSLABS/AWS-CLOUDSAGA,1,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,1,1
