@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,256,211
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,26,11
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,23,12
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,12,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/mining_bitcoin.py,7,4
+/awslabs/aws-cloudsaga/issues,6,4
+/awslabs/aws-cloudsaga/tree/main/screenshots,6,3
+/awslabs/aws-cloudsaga/tree/main/.github/workflows,5,3
+/awslabs/aws-cloudsaga/blob/main/screenshots/imds-reveal-example.png,4,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,4,2
