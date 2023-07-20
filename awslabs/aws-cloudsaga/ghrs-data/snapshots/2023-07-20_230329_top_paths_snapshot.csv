@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,126,79
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,33,6
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,24,5
+/awslabs/aws-cloudsaga/tree/32dea00b63ae9ba30f65385bfb9edd94f1d0a91b/awslabs/aws-cloudsaga/ghrs-data,11,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/mining_bitcoin.py,10,4
+/awslabs/aws-cloudsaga/tree/main/screenshots,10,3
+/awslabs/aws-cloudsaga/blob/32dea00b63ae9ba30f65385bfb9edd94f1d0a91b/awslabs/aws-cloudsaga/latest-report/report.pdf,8,3
+/awslabs/aws-cloudsaga/blob/main/screenshots/imds-reveal-example.png,6,4
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/imds_reveal.py,6,3
+/awslabs/aws-cloudsaga/blob/32dea00b63ae9ba30f65385bfb9edd94f1d0a91b/awslabs/aws-cloudsaga/ghrs-data/views_clones_aggregate.csv,6,2
