@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,83,71
+/awslabs/aws-cloudsaga/tree/main/screenshots,10,4
+/awslabs/aws-cloudsaga/blob/main/screenshots/imds-reveal-example.png,7,4
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,6,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/imds_reveal.py,4,2
+/awslabs/aws-cloudsaga/blob/main/README.md,4,2
+/awslabs/aws-cloudsaga/tree/main/.github/workflows,4,1
+/awslabs/aws-cloudsaga/tree/main,3,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/cloudsaga.py,3,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,3,1
