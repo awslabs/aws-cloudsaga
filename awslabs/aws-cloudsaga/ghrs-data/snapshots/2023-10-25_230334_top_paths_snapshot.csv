@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,65,47
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,23,8
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,20,3
+/awslabs/aws-cloudsaga/blob/main/CONTRIBUTING.md,10,5
+/awslabs/aws-cloudsaga/tree/main,7,6
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,6,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/mining_bitcoin.py,4,2
+/awslabs/aws-cloudsaga/tree/main/.github/workflows,4,1
+/awslabs/aws-cloudsaga/tree/main/.github,3,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/cloudsaga.py,2,1
