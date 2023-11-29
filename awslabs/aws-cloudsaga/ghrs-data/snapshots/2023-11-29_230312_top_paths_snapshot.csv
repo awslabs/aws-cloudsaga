@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,79,62
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,37,4
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/mining_bitcoin.py,18,4
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,17,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/cloudsaga.py,9,3
+/awslabs/aws-cloudsaga/blob/main/README.md,8,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/__init__.py,5,2
+/awslabs/aws-cloudsaga/tree/main/screenshots,5,2
+/awslabs/aws-cloudsaga/tree/main,5,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/network_changes.py,4,1
