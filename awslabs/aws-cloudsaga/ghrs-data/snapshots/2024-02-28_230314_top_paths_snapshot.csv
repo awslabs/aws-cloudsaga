@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,99,70
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,8,2
+/awslabs/aws-cloudsaga/commits,7,1
+/awslabs/aws-cloudsaga/blob/main/README.md,6,3
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,4,2
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,4,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/imds_reveal.py,4,1
+/awslabs/aws-cloudsaga/blob/e4f065a8bb7558af94768301f41f7679ea9baa8b/cloudsaga/scenarios/public_resources.py,2,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/cloudsaga.py,2,1
