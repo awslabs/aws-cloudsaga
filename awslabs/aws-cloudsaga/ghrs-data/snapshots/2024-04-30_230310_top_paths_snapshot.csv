@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,177,93
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,53,9
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,43,7
+/awslabs/aws-cloudsaga/blob/main/README.md,30,3
+/awslabs/aws-cloudsaga/blob/main/CHANGELOG.md,28,2
+/awslabs/aws-cloudsaga/blob/main/CODE_OF_CONDUCT.md,28,2
+/awslabs/aws-cloudsaga/blob/main/CONTRIBUTING.md,28,2
+/awslabs/aws-cloudsaga/pulls,25,5
+/awslabs/aws-cloudsaga/issues,17,5
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,16,6
