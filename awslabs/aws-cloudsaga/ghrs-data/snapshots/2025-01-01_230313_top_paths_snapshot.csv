@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,116,43
+/awslabs/aws-cloudsaga/issues,38,5
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,36,16
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,31,10
+/awslabs/aws-cloudsaga/forks,21,3
+/awslabs/aws-cloudsaga/tree/main,18,11
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/imds_reveal.py,17,7
+/awslabs/aws-cloudsaga/pulls,15,3
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/network_changes.py,11,6
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,8,7
