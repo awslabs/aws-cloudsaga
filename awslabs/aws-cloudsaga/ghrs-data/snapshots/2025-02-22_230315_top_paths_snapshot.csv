@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,129,86
+/awslabs/aws-cloudsaga/issues,21,5
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,17,10
+/awslabs/aws-cloudsaga/blob/main/README.md,13,8
+/awslabs/aws-cloudsaga/tree/main,11,4
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,8,7
+/awslabs/aws-cloudsaga/blob/main/CONTRIBUTING.md,8,4
+/awslabs/aws-cloudsaga/blob/main/CHANGELOG.md,6,2
+/awslabs/aws-cloudsaga/blob/main/CODE_OF_CONDUCT.md,6,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,5,5
