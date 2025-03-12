@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,135,84
+/awslabs/aws-cloudsaga/issues,19,4
+/awslabs/aws-cloudsaga/forks,19,2
+/awslabs/aws-cloudsaga/tree/main,15,6
+/awslabs/aws-cloudsaga/pulls,14,4
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,7,6
+/awslabs/aws-cloudsaga/tree/main/cloudsaga/scenarios,7,6
+/awslabs/aws-cloudsaga/stargazers,5,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,4,4
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/public_resources.py,4,4
