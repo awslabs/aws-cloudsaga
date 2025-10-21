@@ -5,6 +5,9 @@ on:
 
 name: Create & Publish Package
 
+permissions:
+  contents: read
+
 jobs:
   publish:
     name: Create & Publish Package
