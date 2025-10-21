@@ -7,9 +7,7 @@ on:
     - cron: "0 23 * * *"
   workflow_dispatch: # Allow for running this manually.
 
-permissions:
-  contents: write
-  pull-requests: write
+permissions: {}
 
 jobs:
   j1:
