@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/awslabs/aws-cloudsaga,101,49
+/awslabs/aws-cloudsaga/issues,51,17
+/awslabs/aws-cloudsaga/pulls,49,19
+/awslabs/aws-cloudsaga/tree/main/cloudsaga,5,2
+/awslabs/aws-cloudsaga/commit/55f56a6ad642cde170a06ec6d380622f0a4a8e5e,2,2
+/awslabs/aws-cloudsaga/milestones,2,2
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/iam_credentials.py,2,1
+/awslabs/aws-cloudsaga/blob/main/cloudsaga/scenarios/imds_reveal.py,2,1
+/awslabs/aws-cloudsaga/issues/9,2,1
+/awslabs/aws-cloudsaga/tree/main,2,1
